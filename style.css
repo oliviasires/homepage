@@ -61,14 +61,13 @@ a {
   margin: 40px auto;
   width: 300px;
 }
-.gif {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 140px;
-  pointer-events: none;
-  opacity: 0.8;
+#gif1 {
+    position: absolute;
+    top: 55%;   /* This moves it slightly lower than the p3 text */
+    left: 20%;  /* This moves it to the left side of the screen */
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    z-index: -1; /* Keeps it behind the navigation but above the video */
 }
 .pageImage {
     display: block;
