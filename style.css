@@ -21,9 +21,12 @@ body, html {
     z-index: -1;
 }
 .textBlock {
-  text-align: center;
-  position: relative;
-  top: 12%;
+    position: absolute;
+    top: 35%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    width: 100%;
 }
 
 .longText {
