@@ -127,4 +127,11 @@ a {
     height: auto;
     z-index: -1;
 
+#gif3 {
+    position: absolute;
+    bottom: 10%;  /* Places it near the bottom */
+    right: 10%;   /* Places it near the right edge */
+    width: 150px;
+    height: auto;
+    z-index: -1;
 }
