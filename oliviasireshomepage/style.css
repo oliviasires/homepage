@@ -7,7 +7,7 @@ body, html {
   background: black;
 }
 
-/* BACKGROUND VIDEO */
+
 .bgVideo {
   position: fixed;
   width: 100%;
@@ -16,7 +16,6 @@ body, html {
   z-index: -3;
 }
 
-/* OVERLAY (if you are using it) */
 .overlay {
   position: fixed;
   width: 100%;
@@ -25,34 +24,27 @@ body, html {
   z-index: -2;
 }
 
-/* TEXT BLOCK (your main content) */
+
 .textBlock {
   text-align: center;
   position: relative;
   top: 12%;
 }
-
-/* SECOND TEXT STYLE (process page) */
+/
 .longText {
   max-width: 600px;
   margin: 80px auto;
   text-align: center;
   line-height: 1.6;
 }
-
-/* HEADINGS */
 h1 {
   font-size: 60px;
   margin: 0;
 }
-
-/* PARAGRAPHS */
 p {
   max-width: 600px;
   margin: 10px auto;
 }
-
-/* NAV LINKS */
 nav {
   position: absolute;
   bottom: 10%;
@@ -69,14 +61,12 @@ a {
   padding: 10px 25px;
 }
 
-/* SEQUENCE IMAGES */
 .sequence {
   display: block;
   margin: 40px auto;
   width: 300px;
 }
 
-/* GIFS */
 .gif {
   position: absolute;
   top: 45%;
@@ -86,8 +76,7 @@ a {
   pointer-events: none;
   opacity: 0.8;
 }
-
-/* PAGE IMAGES (like Process1.jpg) */
+/
 .pageImage {
   display: block;
   margin: 40px auto;
