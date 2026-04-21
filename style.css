@@ -8,19 +8,17 @@ body, html {
 }
 
 .bgVideo {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
+    z-index: -2;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
 }
 
 .overlay {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.35);
-  z-index: -2;
+    z-index: -1;
 }
 .textBlock {
   text-align: center;
@@ -70,10 +68,18 @@ a {
   pointer-events: none;
   opacity: 0.8;
 }
-/
 .pageImage {
-  display: block;
-  margin: 40px auto;
-  width: 300px;
-  border-radius: 12px;
+    display: block;
+    margin: 40px auto;
+    width: 300px;
+    border-radius: 12px;
+}
+
+.home-title {
+    color: #add8e6;
+
+}
+  
+.home-text {
+    color: #fff9c4; 
 }
