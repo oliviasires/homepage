@@ -1,41 +1,61 @@
 body, html {
   margin: 0;
   padding: 0;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: white;
   overflow: hidden;
+  background: black;
 }
 
 /* BACKGROUND VIDEO */
-.bg {
+.bgVideo {
   position: fixed;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1;
+  z-index: -3;
 }
 
-/* CENTER CONTENT */
-.container {
+/* OVERLAY (if you are using it) */
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.35);
+  z-index: -2;
+}
+
+/* TEXT BLOCK (your main content) */
+.textBlock {
   text-align: center;
   position: relative;
   top: 12%;
 }
 
-/* TEXT */
-h1 {
-  font-size: 60px;
+/* SECOND TEXT STYLE (process page) */
+.longText {
+  max-width: 600px;
+  margin: 80px auto;
+  text-align: center;
+  line-height: 1.6;
 }
 
+/* HEADINGS */
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+/* PARAGRAPHS */
 p {
   max-width: 600px;
   margin: 10px auto;
 }
 
-/* LINKS AT BOTTOM */
-.nav {
+/* NAV LINKS */
+nav {
   position: absolute;
-  bottom: 15%;
+  bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -49,24 +69,28 @@ a {
   padding: 10px 25px;
 }
 
-/* IMAGE ROW */
-.row {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
+/* SEQUENCE IMAGES */
+.sequence {
+  display: block;
+  margin: 40px auto;
+  width: 300px;
 }
 
-.row img {
-  width: 220px;
-  border-radius: 12px;
-}
-
-/* GIF CENTER FLOAT */
+/* GIFS */
 .gif {
   position: absolute;
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 140px;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+/* PAGE IMAGES (like Process1.jpg) */
+.pageImage {
+  display: block;
+  margin: 40px auto;
+  width: 300px;
+  border-radius: 12px;
 }
