@@ -102,7 +102,6 @@ a {
     z-index: -1;
 }
 
-
 .about-image {
     display: block;
     margin: 20px auto;
@@ -114,7 +113,7 @@ a {
     position: absolute;
     top: 55%;
     left: 15%;
-    width: 150px;
+    width: 400px; 
     height: auto;
     z-index: -1;
 }
@@ -123,15 +122,16 @@ a {
     position: absolute;
     top: 50%;
     right: 15%;
-    width: 150px;
+    width: 400px; 
     height: auto;
     z-index: -1;
+}
 
 #gif3 {
     position: absolute;
-    bottom: 10%;  /* Places it near the bottom */
-    right: 10%;   /* Places it near the right edge */
-    width: 150px;
+    top: 5%;      
+    right: 5%;    
+    width: 400px; 
     height: auto;
     z-index: -1;
 }
