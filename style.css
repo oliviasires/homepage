@@ -87,3 +87,10 @@ a {
     margin-top: 50px;
     font-size: 1.2rem;
 }
+
+.about-image {
+    display: block;
+    margin: 20px auto; 
+    max-width: 80%;
+    height: auto;
+}
