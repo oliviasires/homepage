@@ -100,5 +100,5 @@ a {
   right: 4%;    
   width: 100px;
   height: auto;
-  z-index: 5;
+  z-index: 99;
 }
