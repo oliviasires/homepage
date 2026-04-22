@@ -57,19 +57,19 @@ body {
 }
 
 .flower-left, .flower-bottom {
-    height: 5rem !important; /* 2x size */
+    height: 5rem !important;
     width: auto;
     display: inline-block;
 }
 
 .small-asset {
-    height: 2.5rem !important;
+    height: 3.5rem !important;
     width: auto;
     display: inline-block;
 }
 
 .large-asset {
-    height: 7.5rem !important; /* 3x size for About */
+    height: 7.5rem !important;
     width: auto;
     display: inline-block;
     margin: 20px 0;
