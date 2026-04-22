@@ -9,7 +9,7 @@ body {
     background-color: black;
     color: white;
     text-align: center;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 .bgVideo {
@@ -25,15 +25,36 @@ body {
 .textBlock {
     position: relative;
     z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-h1 { font-size: 2.5rem; margin: 10px 0; }
+.header-group {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 20px;           
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
 
 .small-asset {
     height: 2.5rem !important; 
     width: auto;
     display: inline-block;
-    margin: 5px;
+}
+
+.asset-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
 }
 
 nav a {
@@ -43,4 +64,9 @@ nav a {
     padding: 8px 16px;
     margin: 10px 5px;
     display: inline-block;
+    font-weight: bold;
+}
+
+p {
+    margin: 5px 0;
 }
