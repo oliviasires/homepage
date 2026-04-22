@@ -17,7 +17,6 @@ body, html {
     object-fit: cover;
     background-color: black;
 }
-}
 
 .textBlock {
     position: absolute;
@@ -77,15 +76,16 @@ a {
     height: auto;
 }
 .white-bg {
-    background: white ! from ;
-    color: black; 
+  .white-bg {
+    background-color: white !important;
+    background-image: none !important;
+    color: black !important;
 }
 
 .white-bg a {
-    color: black;
-    border-color: black;
+    color: black !important;
+    border-color: black !important;
 }
-
 .white-bg .longText {
     color: black;
 }
