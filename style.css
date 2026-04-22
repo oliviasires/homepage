@@ -7,18 +7,16 @@ body, html {
   background: black;
 }
 
-..bgVideo {
+.bgVideo {
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 100vw;     
+  width: 100vw;
   height: 100vh;
-  min-width: 100%;
-  min-height: 100%;
+  object-fit: cover; ]
+  transform: translate(-50%, -50%); ]
   z-index: -100;
-  transform: translate(-50%, -50%);
-  object-fit: cover; 
-  display: block;
+  background: black;
 }
 
 .textBlock {
