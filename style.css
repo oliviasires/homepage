@@ -66,10 +66,16 @@ nav a:hover {
     text-decoration: underline;
 
 .small-sequence, .inline-image {
-    height: 60px;
+    height: 35px;
     width: auto;/
     display: block;
-    margin: 20px auto;
+    margin: 10px auto;
     z-index: 10;
     opacity: 0.9;
+
+    .small-sequence {
+    height: 30px;
+    width: auto;
+    display: block;
+    margin: 15px auto;
 }
