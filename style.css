@@ -39,10 +39,11 @@ body {
 }
 
 .small-asset {
-    height: 80px; 
+    height: 150px; 
     width: auto;
     display: inline-block;
-    margin: 10px;
+    margin: 15px;
+    border-radius: 4px;
 }
 
 nav a {
