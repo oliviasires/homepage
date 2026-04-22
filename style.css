@@ -30,28 +30,31 @@ body {
     align-items: center;
 }
 
-
 .header-group {
     display: flex;
-    align-items: center;    
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
     gap: 20px;
+    margin-bottom: 5px;
+}
+
+.flower-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-right: 60px; 
     margin-bottom: 15px;
 }
 
-h1 {
-    font-size: 2.5rem;
-    margin: 0;
-}
 
-.flower-left {
-    height: 5rem !important; 
+.flower-left, .flower-bottom {
+    height: 5rem !important;
     width: auto;
     display: inline-block;
 }
 
 .small-asset {
-    height: 2.5rem !important; 
+    height: 2.5rem !important;
     width: auto;
     display: inline-block;
 }
@@ -71,6 +74,10 @@ h1 {
     margin: 10px 0;
 }
 
+
+h1 { font-size: 2.5rem; margin: 0; }
+p { margin: 5px 0; }
+
 nav a {
     color: white;
     text-decoration: none;
@@ -79,8 +86,4 @@ nav a {
     margin: 10px 5px;
     display: inline-block;
     font-weight: bold;
-}
-
-p {
-    margin: 5px 0;
 }
