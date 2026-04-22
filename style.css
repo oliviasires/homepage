@@ -8,15 +8,15 @@ body, html {
 }
 
 .bgVideo {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 100vw;
-  height: 100vh;
-  z-index: -100;
-  transform: translate(-50%, -50%);
-  object-fit: cover; 
-  background-color: transparent; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    background-color: black;
 }
 
 .textBlock {
