@@ -38,12 +38,11 @@ body {
     margin: 25px 0;
 }
 
-
 .small-asset {
-    height: 150px;
+    height: 80px; 
     width: auto;
-    display: block;
-    border-radius: 4px;
+    display: inline-block;
+    margin: 10px;
 }
 
 nav a {
@@ -52,5 +51,5 @@ nav a {
     border: 1px solid white;
     padding: 10px 20px;
     font-weight: bold;
-    text-transform: lowercase;
+    text-transform: none; 
 }
