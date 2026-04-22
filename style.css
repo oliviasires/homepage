@@ -106,7 +106,6 @@ nav a {
     transform: rotate(5deg);
 }
 
-/* 9. Legacy Alignment (For index and lie1) */
 .flower-left, .flower-bottom {
     height: 5rem !important;
     width: auto;
