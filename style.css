@@ -75,6 +75,19 @@ a {
     max-width: 80%;
     height: auto;
 }
+.white-bg {
+    background: white ! from ;
+    color: black; 
+}
+
+.white-bg a {
+    color: black;
+    border-color: black;
+}
+
+.white-bg .longText {
+    color: black;
+}
 
 #gif1 {
   position: absolute;
