@@ -80,12 +80,12 @@ a {
 }
 
 #gif1 {
-    position: absolute;
-    top: 48%;         
-    left: 8%;        
-    width: 180px;
-    height: auto;
-    z-index: -1;
+  position: absolute;
+  top: 48%;
+  left: 8%;
+  width: 140px;  
+  height: auto;
+  z-index: -1;
 }
 
 #gif2 {
@@ -99,9 +99,9 @@ a {
 
 #gif3 {
   position: absolute;
-  top: 2%;      /* Moved closer to the top edge */
-  right: 2%;    /* Moved closer to the right edge */
-  width: 120px; /* Made it smaller than the others */
+  top: 2%;
+  right: 8%; 
+  width: 100px;
   height: auto;
   z-index: -1;
 }
