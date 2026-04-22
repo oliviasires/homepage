@@ -1,62 +1,70 @@
-body {
-    background-color: black;
+body, html {
     margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    min-height: 100vh;
-    text-align: center;
+    justify-content: center; 
+    align-items: center;  
+    background-color: black;
     color: white;
     font-family: sans-serif;
     overflow: hidden; 
 }
-{
+
+
+.bgVideo {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-    object-fit: contain; 
-    background-color: black;
-}
-{
-    z-index: 10;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    padding: 20px;
-}
-{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin: 15px 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;             
+    object-fit: contain;     
 }
 
-{
-    height: 40px;
+.textBlock {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.asset-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.small-asset {
+    height: 20px;         
     width: auto;
+    display: block;
 }
 
 h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
 }
 
 p {
+    font-size: 1.1rem;
     margin: 5px 0;
 }
 
 nav {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     border: 1px solid white;
-    padding: 5px 15px;
+    padding: 10px 20px;
+    font-weight: bold;
 }
