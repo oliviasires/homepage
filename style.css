@@ -11,39 +11,33 @@ body {
     color: white; /* Ensures text is visible against dark video */
 }
 
-/* Fixes the video so it stays in the background */
-.bgVideo {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: -1; /* Keeps video behind text */
+    z-index: -1; 
     object-fit: cover;
     background-color: black;
 }
 
-/* Adjusts the GIF size and position */
 #gif1 {
-    width: 200px; /* Adjust this number to change the size */
+    width: 200px; 
     height: auto;
     position: relative;
     z-index: 5;
     margin-top: 20px;
 }
 
-/* Prevents the static image from covering the video */
 .pageImage {
-    display: none; /* Hide this if you want the video to show instead */
-    /* Or, if you want it visible, give it a specific width and z-index: */
-    /* width: 300px; z-index: 5; */
+    display: none; 
 }
 
 .textBlock {
     text-align: center;
     width: 100%;
     line-height: 1.6;
-    z-index: 10; /* Keeps text above the video */
+    z-index: 10; 
 }
 
 h1 {
@@ -70,4 +64,13 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+
+.inline-image {
+    height: 1.2em; 
+    width: auto;
+    vertical-align: middle;
+    margin-top: 10px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
 }
