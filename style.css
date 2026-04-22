@@ -65,12 +65,11 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 
-.inline-image {
-    height: 1.2em; 
-    width: auto;
-    vertical-align: middle;
-    margin-top: 10px;
-    display: block; 
-    margin-left: auto;
-    margin-right: auto;
+.small-sequence, .inline-image {
+    height: 60px;
+    width: auto;/
+    display: block;
+    margin: 20px auto;
+    z-index: 10;
+    opacity: 0.9;
 }
