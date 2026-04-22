@@ -37,14 +37,18 @@ body {
     margin: 10px 0;
 }
 
-.small-asset {
-    height: 5vh; 
-    width: auto;
-    display: block;
+h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
 }
 
-h1 { font-size: 1.8rem; margin: 5px; }
-p { font-size: 1rem; margin: 2px; }
+.small-asset {
+    height: 2.5rem; 
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
 
 nav a {
     color: white;
