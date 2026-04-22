@@ -25,22 +25,11 @@ body {
 .textBlock {
     position: relative;
     z-index: 10;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 h1 {
     font-size: 2.5rem;
     margin: 10px 0;
-}
-
-.asset-row {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin: 10px 0;
-    flex-wrap: wrap;
 }
 .small-asset {
     height: 2.5rem !important; 
@@ -48,9 +37,8 @@ h1 {
     display: inline-block;
     margin: 5px;
 }
-p {
-    margin: 5px 0;
-}
+
+p { margin: 5px 0; }
 
 nav a {
     color: white;
@@ -59,5 +47,4 @@ nav a {
     padding: 8px 16px;
     margin: 10px 5px;
     display: inline-block;
-    font-weight: bold;
 }
