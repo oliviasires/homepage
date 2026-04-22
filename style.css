@@ -12,6 +12,16 @@ body {
     overflow: hidden; 
 }
 
+.white-bg-page {
+    background-color: white !important;
+    color: black !important;
+}
+
+.white-bg-page nav a {
+    color: black !important;
+    border-color: black !important;
+}
+
 .bgVideo {
     position: fixed;
     top: 0;
@@ -42,13 +52,12 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-right: 60px; 
+    padding-right: 60px;
     margin-bottom: 15px;
 }
 
-
 .flower-left, .flower-bottom {
-    height: 5rem !important;
+    height: 5rem !important; /* 2x size */
     width: auto;
     display: inline-block;
 }
@@ -60,7 +69,7 @@ body {
 }
 
 .large-asset {
-    height: 7.5rem !important;
+    height: 7.5rem !important; /* 3x size for About */
     width: auto;
     display: inline-block;
     margin: 20px 0;
@@ -73,7 +82,6 @@ body {
     gap: 10px;
     margin: 10px 0;
 }
-
 
 h1 { font-size: 2.5rem; margin: 0; }
 p { margin: 5px 0; }
