@@ -57,13 +57,13 @@ body {
 }
 
 .flower-left, .flower-bottom {
-    height: 5rem !important;
+    height: 7rem !important;
     width: auto;
     display: inline-block;
 }
 
 .small-asset {
-    height: 3.5rem !important;
+    height: 4.5rem !important;
     width: auto;
     display: inline-block;
 }
