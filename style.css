@@ -32,22 +32,15 @@ body {
     object-fit: cover;
 }
 
-.textBlock {
-    position: relative;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .split-container {
     display: flex;
-    width: 90%;
-    max-width: 1200px;
+    width: 95%; /* Wider container to allow more room */
+    max-width: 1400px;
     align-items: center;
-    justify-content: space-between;
-    gap: 50px;
+    justify-content: center; /* Centered grouping */
+    gap: 80px; /* Large gap to separate text and visuals */
     z-index: 10;
+    position: relative;
 }
 
 .text-side {
@@ -56,65 +49,86 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 5%; /* Pushes "The Full Effect" further right into the page */
+    position: relative;
+    z-index: 20;
 }
 
-h1 { font-size: 2.5rem; margin: 0; }
-p { margin: 10px 0; font-size: 1.1rem; }
+.visual-side {
+    flex: 1.5; /* Gives visuals more weight */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+
+h1 { font-size: 3rem; margin: 0; } /* Slightly bigger header */
+p { margin: 10px 0; font-size: 1.2rem; }
+
 
 nav a {
     color: white;
     text-decoration: none;
     border: 1px solid white;
-    padding: 8px 16px;
-    margin: 10px 5px;
+    padding: 10px 20px;
+    margin: 15px 0;
     display: inline-block;
     font-weight: bold;
+    position: relative;
+    z-index: 30;
 }
+
 
 .asset-row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 25px;
+    gap: 15px; /* Pushed in closer as requested */
+    margin-top: 20px;
 }
 
 .small-asset {
-    height: 7rem !important; 
+    height: 9rem !important; /* Increased size */
     width: auto;
     display: inline-block;
 }
 
+
+.scatter-wrap {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Taller area for big gifs */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scattered-flower {
+    position: absolute;
+    height: 14rem !important; /* Significantly bigger gifs */
+    width: auto;
+    z-index: 1;
+    opacity: 1; 
+}
+
+#flower1 { top: 0px; left: 10%; transform: rotate(-10deg); }
+#flower2 { bottom: 20px; left: 20%; transform: rotate(5deg); }
+#flower3 { top: 40px; right: 15%; transform: rotate(-5deg); }
+
 .large-asset {
-    height: 7.5rem !important; 
+    height: 10rem !important; 
     width: auto;
     display: inline-block;
     margin: 20px 0;
 }
 
-.scattered-flower {
-    position: absolute;
-    height: 6rem !important;
-    width: auto;
-    z-index: 5;
-    opacity: 0.9;
-}
-
-#flower1 { top: -100px; left: -150px; transform: rotate(-15deg); }
-#flower2 { bottom: -80px; left: 100px; transform: rotate(10deg); }
-#flower3 { top: 50px; right: -120px; transform: rotate(5deg); }
-
-
-.flower-left, .flower-bottom {
-    height: 5rem !important;
-    width: auto;
-    display: inline-block;
-}
-
-.flower-row {
-    width: 100%;
+.textBlock {
+    position: relative;
+    z-index: 10;
     display: flex;
-    justify-content: center;
-    padding-right: 60px;
-    margin-bottom: 15px;
+    flex-direction: column;
+    align-items: center;
 }
