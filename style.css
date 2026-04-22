@@ -99,9 +99,9 @@ a {
 
 #gif3 {
   position: absolute;
-  top: 10%; 
-  right: 18%; 
-  width: 100px; 
+  top: 10%;
+  right: 4%;    
+  width: 100px;
   height: auto;
   z-index: -1;
 }
