@@ -99,8 +99,8 @@ a {
 
 #gif3 {
   position: absolute;
-  top: 2%;      
-  right: 18%;
+  top: 10%; 
+  right: 18%; 
   width: 100px; 
   height: auto;
   z-index: -1;
